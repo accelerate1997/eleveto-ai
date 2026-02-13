@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy | Elevetoai</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+        :root {
+            --bg-color: #0a0a0a;
+            --electric-blue: #3b82f6;
+            --text-gray: #9ca3af;
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 100px 24px;
+        }
+
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+            margin-top: 40px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.05em;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--electric-blue);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--text-gray);
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            color: var(--text-gray);
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--electric-blue);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--electric-blue);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 0.8;
+        }
+
+        .radial-glow {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="radial-glow" style="top: -200px; right: -200px;"></div>
+    <div class="radial-glow" style="bottom: -200px; left: -200px;"></div>
+
+    <div class="container">
+        <a href="index.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="margin-right: 8px;">
+                <path d="M15.8333 10H4.16663" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M10 15.8333L4.16663 10L10 4.16663" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Back to Home
+        </a>
+
+        <h1>Privacy Policy</h1>
+        <p>Last Updated: February 13, 2026</p>
+
+        <div class="glass-card">
+            <h2>1. Information We Collect</h2>
+            <p>At Elevetoai, we collect information necessary to provide specialized AI development services and
+                maintain business portals. This includes:</p>
+            <ul>
+                <li>Contact information (name, email, company name).</li>
+                <li>Technical data (IP addresses, browser type, device info).</li>
+                <li>Business data shared during the development of custom AI agents or MVPs.</li>
+            </ul>
+
+            <h2>2. AI Data Processing</h2>
+            <p>As an AI-first agency, we handle data with specialized care:</p>
+            <ul>
+                <li>Data used to train or fine-tune specialized AI agents is isolated and encrypted.</li>
+                <li>We prioritize on-device or private-cloud processing to minimize data exposure.</li>
+                <li>Aggregated, anonymized data may be used to improve our internal automation frameworks.</li>
+            </ul>
+
+            <h2>3. Security Measures</h2>
+            <p>We implement enterprise-grade security architecture:</p>
+            <ul>
+                <li>End-to-end encryption for all proprietary business data.</li>
+                <li>Regular security audits of our custom business portals.</li>
+                <li>Strict access controls for our development and operations teams.</li>
+            </ul>
+
+            <h2>4. Data Ownership & Rights</h2>
+            <p>You maintain full ownership of your intellectual property and project data. You have the right to
+                request:</p>
+            <ul>
+                <li>Access to your data stored in our systems.</li>
+                <li>Correction of any inaccurate information.</li>
+                <li>Deletion of data once a project is completed and handed over.</li>
+            </ul>
+
+            <h2>5. Contact Us</h2>
+            <p>If you have questions about this policy or how we handle your data, please contact our security team at
+                privacy@elevetoai.com.</p>
+        </div>
+    </div>
+</body>
+
+</html>
